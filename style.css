@@ -4,24 +4,64 @@ button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
 
+body {
+    background-color: #D4A76A;
+    margin: 0px;
+}
+
 header {
     background-color: #ffDBAA;
+    margin: 0px;
+    padding: 20px;
+    border-width: 2px;
+    border-bottom: black;
 }
-body {
-    background-color: #D4A76A
-}
+
 button {
     background-color: #805215;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    font-size:large;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    padding: 20px;
+    cursor:pointer;
 }
+
+nav {
+    display: inline;
+}
+
+nav > button {
+    margin: 20px;
+}
+
+
+
 h1 {
     color: #553100;
+    margin: 0px;
+    display: inline;
 }
-.box {
+
+h3 {
+    text-align: center;
+}
+
+section {
     background-color: white;
     box-shadow: 0px 0px 5px black;
+    display: inline-block;
+    margin: 30px;
+    padding: 20px;
 }
+
+section > button {
+    display: block;
+    width: 100%;
+}
+
 p, h1, h3 {
     font-family: Arial, Helvetica, sans-serif;
 }
