@@ -15,6 +15,7 @@ header {
     padding: 20px;
     border-width: 2px;
     border-bottom: black;
+    display: flex;
 }
 
 button {
@@ -30,7 +31,7 @@ button {
 }
 
 nav {
-    display: inline;
+    display: flex;
 }
 
 nav > button {
