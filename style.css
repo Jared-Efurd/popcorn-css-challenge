@@ -4,6 +4,12 @@ button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
 
+h1 {
+    color: #553100;
+    margin: 0px;
+    display: inline;
+}
+
 body {
     background-color: #D4A76A;
     margin: 0px;
@@ -16,6 +22,7 @@ header {
     border-width: 2px;
     border-bottom: black;
     display: flex;
+    justify-content: space-between;
 }
 
 button {
@@ -32,22 +39,20 @@ button {
 
 nav {
     display: flex;
+    justify-content: flex-end;
 }
 
 nav > button {
     margin: 20px;
 }
 
-
-
-h1 {
-    color: #553100;
-    margin: 0px;
-    display: inline;
+main {
+    display: flex;
 }
 
-h3 {
-    text-align: center;
+main > section {
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 section {
@@ -61,6 +66,10 @@ section {
 section > button {
     display: block;
     width: 100%;
+}
+
+h3 {
+    text-align: center;
 }
 
 p, h1, h3 {
